@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+  margin: 0;
+  background: #0b0d14;
+  color: #dde2f5;
+}
+
+body {
+  font-size: 13px;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+.card {
+  background: #111420;
+  border: 1px solid #252a45;
+  border-radius: 11px;
+  padding: 14px;
+}
+
+.card-hdr {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 11px;
+}
+
+.card-title {
+  font-size: 13px;
+  font-weight: 600;
+  color: #dde2f5;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.lbl {
+  color: #6b7599;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: .4px;
+  text-transform: uppercase;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  background: #171a2e;
+  border: 1px solid #2e3556;
+  border-radius: 7px;
+  color: #dde2f5;
+  outline: none;
+  padding: 7px 10px;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: #5b73ff;
+}
